@@ -1,0 +1,44 @@
+body{
+  background:#0f172a;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:Arial;
+}
+
+.wrap{
+  display:flex;
+  gap:16px;
+}
+
+.btn{
+  padding:12px 22px;
+  border:none;
+  border-radius:30px;
+  cursor:pointer;
+  color:white;
+  font-size:14px;
+  transition:0.3s;
+}
+
+.one{
+  background:#22c55e;
+}
+.one:hover{
+  transform:scale(1.1);
+}
+
+.two{
+  background:#3b82f6;
+}
+.two:hover{
+  background:#1e40af;
+}
+
+.three{
+  background:#ef4444;
+}
+.three:hover{
+  box-shadow:0 0 15px #ef4444;
+}
